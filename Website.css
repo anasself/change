@@ -1,0 +1,679 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+    background-color: red;
+    position: fixed;
+  
+}
+
+.action {
+    display: none;
+    
+}
+ul li:hover{
+    cursor: pointer;
+    font-size: 22px;
+  
+}
+
+@media (max-width:600px) {
+    .action {
+        display: block;
+    }
+
+    ul{
+        position: absolute;
+        top: 80px;
+        background-color: lightgray;
+        width: 100%;
+        height: 380px;
+        flex-direction: column;
+        align-items: center;
+        left: -100%;
+        transition: .5s;
+    }
+}
+
+ul {
+    display: flex;
+    transition: .5s;
+}
+
+ul li {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font:bolder;
+   
+}
+ul a{
+    color: white;
+}
+
+#menu-btn {
+    display: none;
+
+}
+
+#menu-btn:checked~ul {
+    left: 0;
+
+}
+
+
+
+
+
+/* .Anas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgb(228, 52, 52);
+    width: 100%;
+    height: 15vh;
+
+}
+
+.action {
+    display: none;
+    
+}
+
+.Anas1 ul li:hover{
+    /* background-color: rgb(161, 206, 191); */
+    /* cursor: pointer; */
+    /* padding: 10px; */
+  
+/* } */
+/* ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:600px) {
+    .action {
+        display: block;/
+    }
+
+    ul{
+        display: flex;
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        height: 200px;
+        background-color:aquamarine ;
+        flex-direction: column;
+        align-items: center;
+        left: -100%;
+        transition: .5s;
+
+    }
+}
+
+#menu-btn {
+    display: none;
+
+}
+
+#menu-btn:checked~ ul{
+    left: 0;
+
+}
+
+
+.Anas1 a{
+    display: flex;
+    padding: 15px;
+    font-size: 20px;
+    margin-right: 20px;
+    color:white;
+}
+
+.Anas h1 {
+    margin-left: 30px;
+}
+*/
+
+
+nav h1{
+    font-size: 30px;
+}
+ h1 span{
+    color: blue;
+} 
+
+.Anas3 {
+    background-image: url(4.jpeg);
+    color: white;
+    font-size: 40px;
+    height: 100vh;
+}
+
+.Anas5 {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    height: 100vh;
+   
+  
+}
+
+.Anas4 button {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.Anas6 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Anas7 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+}
+
+
+
+.Anas7 img {
+    width: 350px;
+    height: 350px;
+    border: none;
+}
+
+.Anas7 .Anas9 {
+    width: 350px;
+
+}
+
+.Anas9 {
+    margin-bottom: 10px;
+
+}
+
+.Anas9 h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.Anas9 p {
+    margin-top: 10px;
+}
+
+.Anas9 span {
+    font-size: 20px;
+}
+
+.Anas9 button {
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.child2 {
+    background-color: black;
+    height: 100vh;
+    /* margin-top: 50px; */
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;
+
+
+}
+
+.child1 h3 {
+    color: white;
+    font-size: 50px;
+
+}
+
+.child1 span {
+    color: cornflowerblue;
+    font-size: 30px;
+}
+
+.child3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    color: white;
+
+}
+
+.child4 {
+    /* border: 2px solid white; */
+    width: 300px;
+    height: 310px;
+    border-radius: 20px;
+
+    box-sizing: border-box;
+}
+
+.child4 span {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.child4 p {
+    margin-top: 15px;
+}
+
+.child5 {
+    /* border: 2px solid white; */
+    width: 230px;
+    height: 250px;
+    border: none;
+    border-radius: 20px;
+
+
+}
+
+.child5 span {
+    font-size: 30px;
+}
+
+.child5 p {
+    margin-top: 10px;
+}
+
+.child5 {
+    margin-top: 20px;
+}
+
+.child3 .child4:hover {
+    background-color: red;
+    transform: scale(1.1);
+
+}
+
+.child3 .child5:hover {
+    background-color: red;
+    border: none;
+    transform: scale(1.1);
+}
+
+.friday {
+    text-align: center;
+    /* color: black; */
+    margin: 130px 130px;
+    font-size: 30px;
+}
+
+.friday span {
+    font-size: 55px;
+}
+
+.friday p {
+    color: cornflowerblue;
+}
+
+.friday3 {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+
+}
+
+.friday3:hover {
+    background-color: white;
+    color: red;
+
+}
+
+.friday6 {
+    background-color: gray;
+    height: 5px;
+    border: 1px solid black;
+
+    /* width: 100% !important; */
+}
+
+.friday1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    /* width: 50%; */
+}
+
+.friday2 {
+    /* border: 2px solid black; */
+    width: 500px;
+    margin-right: 50px;
+}
+
+.friday2 button {
+    margin-top: 20px;
+}
+
+.friday2 span {
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.friday2 p {
+    font-size: 30px;
+}
+
+.friday4 {
+    width: 50%;
+}
+
+.friday5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.friday6 {
+    background-color: red;
+    height: 5px;
+    width: 80%;
+    border: none;
+    margin-top: 5px;
+}
+
+.friday8 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.friday9 {
+    background-color: red;
+    height: 5px;
+    width: 60%;
+    margin-top: 5px;
+}
+
+.friday11 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.friday12 {
+    background-color: red;
+    height: 5px;
+    width: 65%;
+    margin-top: 5px;
+}
+
+.friday14 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.friday15 {
+    background-color: red;
+    height: 5px;
+    width: 75%;
+    margin-top: 5px;
+}
+
+.friday17 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.friday18 {
+    background-color: red;
+    height: 5px;
+    width: 15%;
+    margin-top: 5px;
+}
+
+.image1 {
+    background-color: black;
+    height: 110vh;
+    padding-top: 80px;
+    cursor: pointer;
+
+}
+
+.image2 {
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    padding-top: 10px;
+
+}
+
+.image2 p {
+    color: cornflowerblue;
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.image3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-top: 60px;
+
+}
+
+.image4 img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    border-radius: 50%;
+
+
+}
+
+.image5 img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.image6 img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    border-radius: 50%;
+
+}
+
+.image4 p {
+    color: rgb(154, 114, 40);
+    text-align: center;
+}
+
+.image4 h3 {
+    color: rgb(223, 22, 22);
+    text-align: center;
+    font-size: 30px;
+}
+
+.image5 p {
+    color: rgb(154, 114, 40);
+    text-align: center;
+}
+
+.image5 h3 {
+    color: rgb(223, 22, 22);
+    text-align: center;
+    font-size: 30px;
+}
+
+.image6 p {
+    color: rgb(154, 114, 40);
+    text-align: center;
+}
+
+.image6 h3 {
+    color: rgb(223, 22, 22);
+    text-align: center;
+    font-size: 30px;
+}
+
+.image4:hover {
+    background-color: cadetblue;
+    transform: scale(1.1);
+
+}
+
+.image5:hover {
+    background-color: cadetblue;
+    transform: scale(1.1);
+
+}
+
+.image6:hover {
+    background-color: cadetblue;
+    transform: scale(1.1);
+
+
+}
+
+.image4 {
+    padding: 20px;
+    /* cursor: pointer; */
+
+}
+
+.image5 {
+    padding: 20px;
+    /* cursor: pointer; */
+}
+
+.image6 {
+    padding: 20px;
+    /* cursor: pointer; */
+}
+
+.spring {
+    text-align: center;
+    margin: 80px 80px;
+    font-size: 35px;
+}
+
+.spring p {
+    color: cornflowerblue;
+    font-size: 25px;
+}
+
+.spring1 {
+    color: black;
+    width: 600px;
+
+}
+
+.spring2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+
+}
+
+.spring3 {
+    /* border: 2px solid black; */
+    width: 500px;
+
+}
+
+.spring1 .spring4 {
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+.spring1 h2 {
+
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.spring4 p {
+    margin-bottom: 10px;
+
+}
+
+.spring3 h4 {
+    margin-bottom: 15px;
+    font-size: 30px;
+
+}
+
+.spring5 input {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 35px;
+
+}
+
+.spring6 input {
+    width: 408px;
+}
+
+.spring7 input {
+    height: 50px;
+}
+
+.spring4 h3 {
+    font-size: 25px;
+}
+
+.spring3 button {
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: red;
+    border: 2px solid red;
+
+}
+
+.spring3 button:hover {
+    background-color: white;
+    color: red;
+}
+
+.extend {
+    background-color: black;
+    color: white;
+    height: 10vh;
+
+
+}
+
+.extend p {
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+}
